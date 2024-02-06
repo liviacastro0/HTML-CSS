@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(182, 182, 236);
+}
+
+.header > img{
+    height: 60px;
+    width: 90px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+.principal{
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav > a:link{
+   text-decoration: none;
+}
+nav > a:hover{
+    color: rgb(255, 0, 170);
+}
+.main{
+    display: flex;
+    background-color: rgb(204, 156, 248);
+    height: 500px;
+}
+
+.main section{
+    flex: 4;
+    background-color:blanchedalmond ;
+ 
+}
+.main > aside {
+    flex: 1;
+ background-color: rgb(129, 106, 170);  
+
+}
+
+footer{
+    background-color: rgb(97, 97, 175);
+    height: 50px;
+}
